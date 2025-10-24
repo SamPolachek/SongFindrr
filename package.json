@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "@supabase/supabase-js": "^2.75.0",
+    "axios": "^1.12.2",
+    "dotenv": "^17.2.3"
+  },
+  "name": "soundcharts_api_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "demo-request.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node demo-request.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamPolachek/SongFindrr.git"
+  },
+  "keywords": [
+    "soundcharts",
+    "api",
+    "nodejs",
+    "music-data"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SamPolachek/SongFindrr/issues"
+  },
+  "homepage": "https://github.com/SamPolachek/SongFindrr#readme"
+}
