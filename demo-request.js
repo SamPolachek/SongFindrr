@@ -10,7 +10,7 @@ if (!query) {
 
 async function searchArtist(query) {
     try {
-        const res = await soundcharts.get("/search/artist", {
+        const res = await soundcharts.get("/api/v2.9/artist/{uuid}", {
             params: { q: query },
         });
         console.log(JSON.stringify(res.data, null, 2));

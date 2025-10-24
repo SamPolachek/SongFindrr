@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const BASE_URL = "https://api.soundcharts.com/api/v2";
+const BASE_URL = "https://customer.api.soundcharts.com/";
 
 const soundcharts = axios.create({
     baseURL: BASE_URL,
@@ -14,3 +14,5 @@ const soundcharts = axios.create({
 });
 
 export default soundcharts;
+
+console.log(process.env.SOUNDCHARTS_APP_ID, process.env.SOUNDCHARTS_APP_TOKEN);
