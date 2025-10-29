@@ -9,7 +9,7 @@ const soundcharts = axios.create({
     baseURL: BASE_URL,
     headers: {
         "x-app-id": process.env.SOUNDCHARTS_APP_ID,
-        "x-app-token": process.env.SOUNDCHARTS_APP_TOKEN,
+        "x-api-key": process.env.SOUNDCHARTS_APP_TOKEN,
     },
 });
 

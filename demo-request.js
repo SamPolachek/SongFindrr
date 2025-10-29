@@ -10,9 +10,9 @@ if (!query) {
 
 async function searchArtist(query) {
     try {
-        const res = await soundcharts.get("/api/v2.9/artist/{uuid}", {
-            params: { q: query },
-        });
+        const endpoint = `/api/v2/artist/search/${encodeURIComponent(query)}`;
+        //console.log("Request Headers:", soundcharts.defaults.headers);
+        const res = await soundcharts.get(endpoint);
         console.log(JSON.stringify(res.data, null, 2));
     } catch (error) {
         console.error("Error Finding Artst: ", error.response?.data || error.message);
