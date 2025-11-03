@@ -1,4 +1,4 @@
-//Run Program Using This Format: node demo-request.js "*insert-artist-name-here*"
+//Run Program Using This Format: node demo-request.js "*insert-song-name-here*"
 import soundcharts from "./soundcharts.js";
 
 const query = process.argv[2];
@@ -10,7 +10,7 @@ if (!query) {
 
 async function searchArtist(query) {
     try {
-        const endpoint = `/api/v2/artist/search/${encodeURIComponent(query)}`;
+        const endpoint = `/api/v2/song/search/${encodeURIComponent(query)}`;
         //console.log("Request Headers:", soundcharts.defaults.headers);
         const res = await soundcharts.get(endpoint);
         console.log(JSON.stringify(res.data, null, 2));
