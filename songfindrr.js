@@ -26,7 +26,7 @@ async function songFindrr(songName) {
 
         const audio = res2.data?.object?.audio;
         if (!audio) {
-            console.log("No Audio Metadata Available For This Song. :(");
+            console.log("No Metadata Available For This Song. :(");
             return;
         }
 
