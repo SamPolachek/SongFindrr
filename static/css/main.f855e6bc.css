@@ -20,6 +20,11 @@ code{
 
 .App{
     text-align:center;
+    font-family:source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace
+}
+
+.App{
+    text-align:center
 }
 .App-logo{
     height:40vmin;pointer-events:none
@@ -33,6 +38,7 @@ code{
     font-size:calc(10px + 2vmin);
     justify-content:center;
     min-height:100vh;
+    min-height:100vh
 }
 .App-link{
     color:#61dafb
