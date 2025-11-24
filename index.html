@@ -17,7 +17,7 @@
         <div id="root"></div>
         <header class="header">
             <div class="logo-container">
-                <img src="/SongFindrr/favicon.ico" alt="Icon" class="logo-icon">
+                <img src="images/favicon.ico" alt="Icon" class="logo-icon">
                 <span class="logo-text">SongFindrr</span>
             </div>
 
@@ -30,8 +30,23 @@
             <h1 class="main-title">SongFindrr</h1>
             <hr class="section-divider" />
 
-            
+            <section class="search-section">
+                <div class="search-bar">
+                    <img src="images/search.png" alt="Search Icon" class="search-icon" />
+                    <input type="text" id="song-input" placeholder="Search for a song..." />
+                    <button id="search-btn" class="search-button">Search</button>
+                </div>
+            </section>
+
+            <section class="recent-section">
+                <h2 class="recent-title">Recent Searches</h2>
+                <hr class="section-divider" />
+            </section>
         </main>
+
+        <footer class="footer">
+            <a href="https://developers.soundcharts.com/documentation/getting-started">API</a>
+        </footer>
 
     </body>
 </html>

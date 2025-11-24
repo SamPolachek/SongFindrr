@@ -32,3 +32,116 @@ code{
     color:#61dafb
 }@keyframes App-logo-spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}
 /*# sourceMappingURL=main.f855e6bc.css.map*/
+
+.section-divider{
+    width:90%;
+    margin:10px auto 20px auto;
+    border:none;
+    border-top:2px solid #77a9ff;
+}
+
+.header{
+    background:#e6e9ee;
+    border-bottom:1px solid #aaa;
+    padding:10px 20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo-container{
+    display:flex;
+    align-items:center;
+}
+
+.logo-icon{
+    width:35px;
+    height:35px;
+    margin-right:8px;
+}
+
+.logo-text{
+    font-size:28px;
+    font-family:"UnifrakturCook", cursive;
+    color:#4d8bf5;
+}
+
+.profile-badge{
+    width:40px;
+    height:40px;
+    border:2px solid #333;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+}
+
+.main-title{
+    text-align:center;
+    margin-top:25px;
+    font-size:48px;
+    color:#4d8bf5;
+    font-family:"UnifrakturCook", cursive;
+}
+
+.search-section{
+    display:flex;
+    justify-content:center;
+    margin-top:30px;
+}
+
+.search-bar{
+    display:flex;
+    align-items:center;
+    border:2px solid #77a9ff;
+    padding:10px;
+    border-radius:10px;
+    width:60%;
+    max-width:700px;
+}
+.search-bar input {
+    flex:1;
+    border:none;
+    outline:none;
+    font-size:18px;
+}
+
+.search-icon{
+    width:25px;
+    margin-right:10px;
+}
+
+.search-button{
+    padding:10px 20px;
+    background:#4d8bf5;
+    color:white;
+    border:none;
+    font-weight:bold;
+    border-radius:8px;
+    cursor:pointer;
+    margin-left:15px;
+    font-family:"UnifrakturCook", cursive;
+}
+.search-button:hover{
+    background:#2f6fe4;
+}
+
+.footer{
+    width:100%;
+    background:#000;
+    color:white;
+    padding:12px 0;
+    text-align:center;
+    position:fixed;
+    bottom:0;
+}
+.footer a{
+    margin:0 20px;
+    text-decoration:none;
+    color:white;
+    font-size:14px;
+}
+.footer a:hover{
+    text-decoration:underline;
+}
