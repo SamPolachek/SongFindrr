@@ -69,7 +69,7 @@ code{
 
 .logo-text{
     font-size:28px;
-    font-family:"UnifrakturCook", cursive;
+    font-family:sans-serif;
     color:#4d8bf5;
 }
 
@@ -89,7 +89,7 @@ code{
     margin-top:25px;
     font-size:48px;
     color:#4d8bf5;
-    font-family:"UnifrakturCook", cursive;
+    font-family:sans-serif;
 }
 
 .search-section{
@@ -128,7 +128,7 @@ code{
     border-radius:8px;
     cursor:pointer;
     margin-left:15px;
-    font-family:"UnifrakturCook", cursive;
+    font-family:sans-serif;
 }
 .search-button:hover{
     background:#2f6fe4;
